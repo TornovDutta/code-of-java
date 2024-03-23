@@ -5,6 +5,7 @@ public class mergesort{
         int arr[]={6,5,4,3,2,1};
         System.out.println(Arrays.toString(sort(arr)));
     }
+    //time complexity O(nlogn)
     static int[] sort(int arr[]){
         if(arr.length==1){
             return arr;
